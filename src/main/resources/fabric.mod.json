@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "overworld-hyphae",
+	"version": "1.0.0",
+	"name": "Overworld Hyphae Mod (Dyeable Wood Planks)",
+	"description": "This mod changes the Mushroom Stem block into a wood log block, whose planks are dyeable!",
+	"authors": [
+		"BlueSteel42"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/overworld-hyphae/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"bluesteel42.overworldhyphae.OverworldHyphae"
+		],
+		"fabric-datagen": [
+			"bluesteel42.overworldhyphae.OverworldHyphaeDataGenerator"
+		],
+		"client": [
+			"bluesteel42.overworldhyphae.OverworldHyphaeClient"
+		]
+	},
+	"mixins": [
+		"overworld-hyphae.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

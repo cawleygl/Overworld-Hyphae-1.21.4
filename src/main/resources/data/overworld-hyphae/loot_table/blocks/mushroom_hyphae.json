@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "overworld-hyphae:mushroom_planks"
+          "name": "overworld-hyphae:mushroom_hyphae"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "overworld-hyphae:mushroom_planks"
+  "random_sequence": "overworld-hyphae:blocks/mushroom_hyphae"
 }

@@ -31,6 +31,20 @@ public class ModBlocks {
             .sounds(BlockSoundGroup.WOOD)
             .burnable());
 
+    public static final Block STRIPPED_MUSHROOM_HYPHAE = register("stripped_mushroom_hyphae", PillarBlock::new, AbstractBlock.Settings.create()
+            .mapColor(MapColor.OAK_TAN)
+            .instrument(NoteBlockInstrument.BASS)
+            .strength(0.2F)
+            .sounds(BlockSoundGroup.WOOD)
+            .burnable());
+
+    public static final Block STRIPPED_MUSHROOM_STEM = register("stripped_mushroom_stem", PillarBlock::new, AbstractBlock.Settings.create()
+            .mapColor(MapColor.OAK_TAN)
+            .instrument(NoteBlockInstrument.BASS)
+            .strength(0.2F)
+            .sounds(BlockSoundGroup.WOOD)
+            .burnable());
+
     public static final Block MUSHROOM_PLANKS = register("mushroom_planks", Block::new, AbstractBlock.Settings.create()
             .mapColor(MapColor.OAK_TAN)
             .instrument(NoteBlockInstrument.BASS)
@@ -50,7 +64,6 @@ public class ModBlocks {
 
     }
 
-
     public static void initialize() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL)
                 .register((itemGroup) -> {
@@ -62,6 +75,8 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
                 .register((itemGroup) -> {
                             itemGroup.addAfter(Items.BAMBOO_BUTTON, ModBlocks.MUSHROOM_PLANKS);
+                            itemGroup.addAfter(Items.BAMBOO_BUTTON, ModBlocks.STRIPPED_MUSHROOM_HYPHAE);
+                            itemGroup.addAfter(Items.BAMBOO_BUTTON, ModBlocks.STRIPPED_MUSHROOM_STEM);
                             itemGroup.addAfter(Items.BAMBOO_BUTTON, ModBlocks.MUSHROOM_HYPHAE);
                             itemGroup.addAfter(Items.BAMBOO_BUTTON, ModBlocks.MUSHROOM_STEM);
                         }

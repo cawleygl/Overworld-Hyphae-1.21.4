@@ -433,10 +433,7 @@ public class ModBlocks {
 
     public static void initialize() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL)
-                .register((itemGroup) -> {
-                            itemGroup.addBefore(Items.MUSHROOM_STEM, ModBlocks.MUSHROOM_STEM);
-                        }
-                );
+                .register((itemGroup) -> itemGroup.addBefore(Items.MUSHROOM_STEM, ModBlocks.MUSHROOM_STEM));
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS)
                 .register((itemGroup) -> {

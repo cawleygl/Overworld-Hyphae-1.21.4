@@ -1,6 +1,7 @@
 package bluesteel42.overworldhyphae;
 
 import bluesteel42.overworldhyphae.block.ModBlocks;
+import bluesteel42.overworldhyphae.registries.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,6 +21,7 @@ public class OverworldHyphae implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModBlocks.initialize();
+		ModRegistries.registerStrippables();
 
 		LOGGER.info("Hello Fabric world!");
 	}

@@ -15,11 +15,11 @@
 	"icon": "assets/overworld-hyphae/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"bluesteel42.overworldhyphae.OverworldHyphae"
-		],
 		"fabric-datagen": [
 			"bluesteel42.overworldhyphae.OverworldHyphaeDataGenerator"
+		],
+		"main": [
+			"bluesteel42.overworldhyphae.OverworldHyphae"
 		],
 		"client": [
 			"bluesteel42.overworldhyphae.OverworldHyphaeClient"

@@ -22,6 +22,7 @@ public class OverworldHyphae implements ModInitializer {
 		// Proceed with mild caution.
 		ModBlocks.initialize();
 		ModRegistries.registerStrippables();
+		ModRegistries.registerCompostables();
 
 		LOGGER.info("Hello Fabric world!");
 	}

@@ -18,7 +18,9 @@ import net.minecraft.util.math.Direction;
 import java.util.function.Function;
 
 public class ModBlocks {
-    private static final float blockStrength = 0.5F;
+    private static final float blockHardness = 0.5F;
+    private static final float blockResistence = 0.6F;
+    private static final float itemStrength = 0.2F;
 
     private static final String plainDyeColor = "";
     private static final MapColor plainMapColor = MapColor.OAK_TAN;
@@ -28,7 +30,7 @@ public class ModBlocks {
             AbstractBlock.Settings.create()
                     .mapColor(plainMapColor)
                     .instrument(NoteBlockInstrument.BASS)
-                    .strength(blockStrength)
+                    .strength(blockHardness)
                     .sounds(BlockSoundGroup.WOOD)
                     .burnable());
 
@@ -37,7 +39,7 @@ public class ModBlocks {
             AbstractBlock.Settings.create()
                     .mapColor(state -> state.get(PillarBlock.AXIS) == Direction.Axis.Y ? plainMapColor : MapColor.WHITE_GRAY)
                     .instrument(NoteBlockInstrument.BASS)
-                    .strength(blockStrength)
+                    .strength(blockHardness)
                     .sounds(BlockSoundGroup.WOOD)
                     .burnable());
 
@@ -46,7 +48,7 @@ public class ModBlocks {
             AbstractBlock.Settings.create()
                     .mapColor(plainMapColor)
                     .instrument(NoteBlockInstrument.BASS)
-                    .strength(blockStrength)
+                    .strength(blockHardness)
                     .sounds(BlockSoundGroup.WOOD)
                     .burnable());
 
@@ -55,7 +57,7 @@ public class ModBlocks {
             AbstractBlock.Settings.create()
                     .mapColor(plainMapColor)
                     .instrument(NoteBlockInstrument.BASS)
-                    .strength(blockStrength)
+                    .strength(blockHardness)
                     .sounds(BlockSoundGroup.WOOD)
                     .burnable());
 
@@ -286,7 +288,7 @@ public class ModBlocks {
         final Block block = Blocks.register(generateRegistryKey(generateID(path)), Block::new, AbstractBlock.Settings.create()
                 .mapColor(mapColor)
                 .instrument(NoteBlockInstrument.BASS)
-                .strength(blockStrength)
+                .strength(blockHardness, blockResistence)
                 .sounds(BlockSoundGroup.WOOD)
                 .burnable());
 
@@ -327,7 +329,7 @@ public class ModBlocks {
                 settings -> new ButtonBlock(BlockSetType.OAK, 30, settings),
                 AbstractBlock.Settings.create()
                         .noCollision()
-                        .strength(blockStrength)
+                        .strength(itemStrength)
                         .pistonBehavior(PistonBehavior.DESTROY));
 
         Items.register(block);
@@ -346,7 +348,7 @@ public class ModBlocks {
                         .solid()
                         .instrument(NoteBlockInstrument.BASS)
                         .noCollision()
-                        .strength(blockStrength)
+                        .strength(itemStrength)
                         .burnable()
                         .pistonBehavior(PistonBehavior.DESTROY));
 
@@ -365,7 +367,7 @@ public class ModBlocks {
                         .mapColor(mapColor)
                         .solid()
                         .instrument(NoteBlockInstrument.BASS)
-                        .strength(blockStrength)
+                        .strength(blockHardness, blockResistence)
                         .sounds(BlockSoundGroup.WOOD)
                         .burnable());
         Items.register(block);
@@ -383,7 +385,7 @@ public class ModBlocks {
                         .mapColor(mapColor)
                         .solid()
                         .instrument(NoteBlockInstrument.BASS)
-                        .strength(blockStrength)
+                        .strength(blockHardness, blockResistence)
                         .burnable());
 
         Items.register(block);
@@ -400,7 +402,7 @@ public class ModBlocks {
                 AbstractBlock.Settings.create()
                         .mapColor(mapColor)
                         .instrument(NoteBlockInstrument.BASS)
-                        .strength(blockStrength)
+                        .strength(blockResistence)
                         .nonOpaque()
                         .burnable()
                         .pistonBehavior(PistonBehavior.DESTROY)
@@ -421,7 +423,7 @@ public class ModBlocks {
                 AbstractBlock.Settings.create()
                         .mapColor(mapColor)
                         .instrument(NoteBlockInstrument.BASS)
-                        .strength(blockStrength)
+                        .strength(blockResistence)
                         .nonOpaque()
                         .allowsSpawning(Blocks::never)
                         .burnable());

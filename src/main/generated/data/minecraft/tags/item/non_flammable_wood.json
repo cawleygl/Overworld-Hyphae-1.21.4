@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "#overworld-hyphae:mushroom_planks",
+      "required": false
+    },
+    {
+      "id": "#overworld-hyphae:mushroom_stairs",
+      "required": false
+    },
+    {
+      "id": "#overworld-hyphae:mushroom_slabs",
+      "required": false
+    },
+    {
+      "id": "#overworld-hyphae:mushroom_doors",
+      "required": false
+    },
+    {
+      "id": "#overworld-hyphae:mushroom_trapdoors",
+      "required": false
+    },
+    {
+      "id": "#overworld-hyphae:mushroom_fences",
+      "required": false
+    },
+    {
+      "id": "#overworld-hyphae:mushroom_fence_gates",
+      "required": false
+    },
+    {
+      "id": "#overworld-hyphae:mushroom_buttons",
+      "required": false
+    },
+    {
+      "id": "#overworld-hyphae:mushroom_pressure_plates",
+      "required": false
+    }
+  ]
+}

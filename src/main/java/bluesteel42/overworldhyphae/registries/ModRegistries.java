@@ -16,6 +16,8 @@ public class ModRegistries {
     public static void registerCompostables() {
         CompostingChanceRegistry.INSTANCE.add(ModBlocks.MUSHROOM_STEM, compostChance);
         CompostingChanceRegistry.INSTANCE.add(ModBlocks.MUSHROOM_HYPHAE, compostChance);
+        CompostingChanceRegistry.INSTANCE.add(ModBlocks.STRIPPED_MUSHROOM_STEM, compostChance);
+        CompostingChanceRegistry.INSTANCE.add(ModBlocks.STRIPPED_MUSHROOM_HYPHAE, compostChance);
 
         CompostingChanceRegistry.INSTANCE.add(ModBlocks.MUSHROOM_PLANKS, compostChance);
         CompostingChanceRegistry.INSTANCE.add(ModBlocks.MUSHROOM_STAIRS, compostChance);

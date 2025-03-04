@@ -17,13 +17,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(ModTags.Blocks.MUSHROOM_LOGS)
+        getOrCreateTagBuilder(ModTags.Blocks.MUSHROOM_STEMS)
                 .add(ModBlocks.MUSHROOM_STEM)
                 .add(ModBlocks.MUSHROOM_HYPHAE)
                 .add(ModBlocks.STRIPPED_MUSHROOM_STEM)
                 .add(ModBlocks.STRIPPED_MUSHROOM_HYPHAE);
 
-        getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN).addOptionalTag(ModTags.Blocks.MUSHROOM_LOGS);
+        getOrCreateTagBuilder(BlockTags.LOGS).addOptionalTag(ModTags.Blocks.MUSHROOM_STEMS);
 
         getOrCreateTagBuilder(BlockTags.PLANKS)
                 .add(ModBlocks.MUSHROOM_PLANKS)

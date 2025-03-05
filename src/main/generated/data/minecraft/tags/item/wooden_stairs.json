@@ -1,8 +1,5 @@
 {
   "values": [
-    {
-      "id": "#overworld-hyphae:mushroom_stairs",
-      "required": false
-    }
+    "#overworld-hyphae:mushroom_stairs"
   ]
 }

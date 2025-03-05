@@ -1,8 +1,5 @@
 {
   "values": [
-    {
-      "id": "#overworld-hyphae:mushroom_trapdoors",
-      "required": false
-    }
+    "#overworld-hyphae:mushroom_trapdoors"
   ]
 }

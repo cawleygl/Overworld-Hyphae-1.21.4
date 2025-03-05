@@ -1,7 +1,7 @@
 {
   "values": [
     {
-      "id": "#overworld-hyphae:mushroom_stems",
+      "id": "#overworld-hyphae:all_mushroom_stems",
       "required": false
     }
   ]

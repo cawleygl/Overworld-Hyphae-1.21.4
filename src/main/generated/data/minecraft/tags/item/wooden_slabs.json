@@ -1,8 +1,5 @@
 {
   "values": [
-    {
-      "id": "#overworld-hyphae:mushroom_slabs",
-      "required": false
-    }
+    "#overworld-hyphae:mushroom_slabs"
   ]
 }

@@ -1,8 +1,5 @@
 {
   "values": [
-    {
-      "id": "#overworld-hyphae:mushroom_fences",
-      "required": false
-    }
+    "#overworld-hyphae:mushroom_fences"
   ]
 }

@@ -3,7 +3,7 @@
   "category": "building",
   "group": "planks",
   "ingredients": [
-    "#overworld-hyphae:mushroom_logs"
+    "#overworld-hyphae:mushroom_stems"
   ],
   "result": {
     "count": 4,

@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "overworld-hyphae",
-	"version": "1.0.0",
-	"name": "Overworld Hyphae Mod (Dyeable Wood Planks)",
-	"description": "This mod changes the Mushroom Stem block into a wood log block, whose planks are dyeable!",
+	"version": "1.1.0",
+	"name": "Overworld Hyphae Mod (Dyeable Wood)",
+	"description": "This mod changes the Mushroom Stem block into a dyeable wood block!",
 	"authors": [
 		"BlueSteel42"
 	],

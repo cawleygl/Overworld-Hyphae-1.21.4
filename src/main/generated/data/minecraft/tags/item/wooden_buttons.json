@@ -1,8 +1,5 @@
 {
   "values": [
-    {
-      "id": "#overworld-hyphae:mushroom_buttons",
-      "required": false
-    }
+    "#overworld-hyphae:mushroom_buttons"
   ]
 }

@@ -1,4 +1,4 @@
-// 1.21.4	-999999999-01-01T00:00:00	Overworld Hyphae Mod (Dyeable Wood Planks)/Block Loot Tables
+// 1.21.4	-999999999-01-01T00:00:00	Overworld Hyphae Mod (Dyeable Wood)/Block Loot Tables
 2ab7b55b0717cfe425bdc9fb236159cd4537c856 data/overworld-hyphae/loot_table/blocks/black_mushroom_button.json
 be752b825c3d7679de88be33bacf275a74e04b37 data/overworld-hyphae/loot_table/blocks/black_mushroom_door.json
 205e3a700fd51d271c9fa960b36cba771c554252 data/overworld-hyphae/loot_table/blocks/black_mushroom_fence.json

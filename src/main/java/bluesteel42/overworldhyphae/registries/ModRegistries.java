@@ -9,8 +9,56 @@ import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 public class ModRegistries {
 
     public static void registerStrippables() {
-        StrippableBlockRegistry.register(ModBlocks.MUSHROOM_STEM, ModBlocks.STRIPPED_MUSHROOM_STEM);
         StrippableBlockRegistry.register(ModBlocks.MUSHROOM_HYPHAE, ModBlocks.STRIPPED_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.MUSHROOM_STEM, ModBlocks.STRIPPED_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.WHITE_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_WHITE_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.WHITE_MUSHROOM_STEM, ModBlocks.STRIPPED_WHITE_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.LIGHT_GRAY_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_LIGHT_GRAY_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.LIGHT_GRAY_MUSHROOM_STEM, ModBlocks.STRIPPED_LIGHT_GRAY_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.GRAY_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_GRAY_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.GRAY_MUSHROOM_STEM, ModBlocks.STRIPPED_GRAY_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.BLACK_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_BLACK_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.BLACK_MUSHROOM_STEM, ModBlocks.STRIPPED_BLACK_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.BROWN_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_BROWN_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.BROWN_MUSHROOM_STEM, ModBlocks.STRIPPED_BROWN_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.RED_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_RED_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.RED_MUSHROOM_STEM, ModBlocks.STRIPPED_RED_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.ORANGE_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_ORANGE_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.ORANGE_MUSHROOM_STEM, ModBlocks.STRIPPED_ORANGE_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.YELLOW_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_YELLOW_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.YELLOW_MUSHROOM_STEM, ModBlocks.STRIPPED_YELLOW_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.LIME_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_LIME_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.LIME_MUSHROOM_STEM, ModBlocks.STRIPPED_LIME_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.GREEN_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_GREEN_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.GREEN_MUSHROOM_STEM, ModBlocks.STRIPPED_GREEN_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.CYAN_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_CYAN_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.CYAN_MUSHROOM_STEM, ModBlocks.STRIPPED_CYAN_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.LIGHT_BLUE_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_LIGHT_BLUE_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.LIGHT_BLUE_MUSHROOM_STEM, ModBlocks.STRIPPED_LIGHT_BLUE_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.BLUE_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_BLUE_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.BLUE_MUSHROOM_STEM, ModBlocks.STRIPPED_BLUE_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.PURPLE_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_PURPLE_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.PURPLE_MUSHROOM_STEM, ModBlocks.STRIPPED_PURPLE_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.MAGENTA_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_MAGENTA_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.MAGENTA_MUSHROOM_STEM, ModBlocks.STRIPPED_MAGENTA_MUSHROOM_STEM);
+
+        StrippableBlockRegistry.register(ModBlocks.PINK_MUSHROOM_HYPHAE, ModBlocks.STRIPPED_PINK_MUSHROOM_HYPHAE);
+        StrippableBlockRegistry.register(ModBlocks.PINK_MUSHROOM_STEM, ModBlocks.STRIPPED_PINK_MUSHROOM_STEM);
     }
 
     private static final float compostChance = 0.65F;

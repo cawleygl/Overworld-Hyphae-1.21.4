@@ -400,8 +400,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.WOODEN_PRESSURE_PLATES).addTag(ModTags.Items.MUSHROOM_PRESSURE_PLATES);
         getOrCreateTagBuilder(ItemTags.SIGNS).addTag(ModTags.Items.MUSHROOM_SIGNS);
         getOrCreateTagBuilder(ItemTags.HANGING_SIGNS).addTag(ModTags.Items.MUSHROOM_HANGING_SIGNS);
-        getOrCreateTagBuilder(ItemTags.BOATS).addTag(ModTags.Items.MUSHROOM_BOATS);
-        getOrCreateTagBuilder(ItemTags.CHEST_BOATS).addTag(ModTags.Items.MUSHROOM_CHEST_BOATS);
 
         getOrCreateTagBuilder(ItemTags.NON_FLAMMABLE_WOOD)
                 .addTag(ModTags.Items.MUSHROOM_STEMS)

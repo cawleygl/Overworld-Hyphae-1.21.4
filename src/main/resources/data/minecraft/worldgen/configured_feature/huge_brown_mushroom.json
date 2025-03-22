@@ -21,12 +21,7 @@
       "state": {
         "Name": "overworld-hyphae:mushroom_stem",
         "Properties": {
-          "down": "false",
-          "east": "true",
-          "north": "true",
-          "south": "true",
-          "up": "false",
-          "west": "true"
+          "axis": "y"
         }
       }
     }

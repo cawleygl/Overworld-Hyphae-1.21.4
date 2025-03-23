@@ -402,7 +402,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.HANGING_SIGNS).addTag(ModTags.Items.MUSHROOM_HANGING_SIGNS);
 
         getOrCreateTagBuilder(ItemTags.NON_FLAMMABLE_WOOD)
-                .addTag(ModTags.Items.MUSHROOM_STEMS)
+                .addTag(ModTags.Items.ALL_MUSHROOM_STEMS)
                 .addTag(ModTags.Items.MUSHROOM_PLANKS)
                 .addTag(ModTags.Items.MUSHROOM_STAIRS)
                 .addTag(ModTags.Items.MUSHROOM_SLABS)
